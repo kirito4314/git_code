@@ -12,3 +12,7 @@
 创建并切换分支	git checkout -b 分支名
 分支合并	git merge 分支名	合并到当前分支
 
+git 创建密钥 	ssh-keygen -t rsa
+
+连接github远程仓库	git remote add 远程仓库名(一般使用 orgin) 远程仓库ssh对应git@githubxxx
+
