@@ -1,0 +1,14 @@
+初始化git仓库	git init
+
+工作区->暂存区  git add .
+暂存区->仓库    git commit -m '注释'
+查看状态 	git status
+查看日志	git log / git-log
+配置自定义命令	在~/,bashrc下进行修改
+版本回退	git reset --hard commitID
+
+创建分支	git branch 分支名
+切换分支	git checkout 分支名
+创建并切换分支	git checkout -b 分支名
+分支合并	git merge 分支名	合并到当前分支
+
