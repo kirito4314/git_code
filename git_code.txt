@@ -21,3 +21,14 @@ git 创建密钥 	ssh-keygen -t rsa
 上传远程仓库	git push [-f] [--set-upstream] [本地branch名[:远程仓库branch名]]#默认上传到同名分支
 #-f	强制存为本地上传模式，一般禁用
 #--set-uostream	绑定远端分支与本地分支的关联
+
+从远程仓库抓取	git fetch [remote name] [branch name]
+#获得远程仓库的最新更新信息，之后可使用git merge进行合并
+
+从远程仓库拉取	git pull [remote name] [branch name]
+#相当于将fetch与merge进行合并
+
+#fetch与pull在不指定名称时，默认抓取(并合并)所有分支
+
+远程仓库分支合并过来发生冲突解决方法与本地分支合并解决冲突方式一致
+
